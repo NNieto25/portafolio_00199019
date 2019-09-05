@@ -1,0 +1,21 @@
+1- obtener 2do elemento quitando elementos
+a= pila;
+if(empty(a))
+	return -1
+pop(a)
+if(empty(a))
+	return -1
+i = pop(a)
+retornar (i)
+
+2- obtener 2do, pila intacta
+a= pila;
+if(empty(a))
+	return -1
+b= pop(a)
+if(empty(a))
+	return -1
+i = pop(a)
+push(a,i)
+push(a,b)
+retornar (i)
